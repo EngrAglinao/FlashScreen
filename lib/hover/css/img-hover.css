@@ -6,7 +6,7 @@ div > h6 {
   text-transform: uppercase;
 }
 
-.hovereffect {
+.imgholder {
   float: left;
   overflow: hidden;
   position: relative;
@@ -14,7 +14,7 @@ div > h6 {
   cursor: default;
 }
 
-.hovereffect .overlay {
+.imgholder .overlay {
   width: 100%;
   position: absolute;
   overflow: hidden;
@@ -32,7 +32,7 @@ div > h6 {
   visibility: hidden;
 }
 
-.hovereffect img {
+.imgholder img {
   display: block;
   position: relative;
   -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
@@ -42,13 +42,13 @@ div > h6 {
 
 }
 
-.hovereffect:hover img {
+.imgholder:hover img {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-.hovereffect h2 {
+.imgholder h2 {
   text-transform: uppercase;
   color: #fff;
   text-align: center;
@@ -61,7 +61,7 @@ div > h6 {
   display: inline-block;
 }
 
-.hovereffect a.info {
+.imgholder a.info {
   display: inline-block;
   text-decoration: none;
   padding: 7px 14px;
@@ -72,12 +72,12 @@ div > h6 {
   background-color: transparent;
 }
 
-.hovereffect a.info:hover {
+.imgholder a.info:hover {
   box-shadow: 0 0 5px #fff;
 }
 
 
-.hovereffect p.icon-links a {
+.imgholder p.icon-links a {
   float: right;
   margin-left: 5px;
   margin-right: 5px;
@@ -85,8 +85,8 @@ div > h6 {
   font-size: 1.4em;
 }
 
-.hovereffect:hover p.icon-links a:hover,
-.hovereffect:hover p.icon-links a:focus {
+.imgholder:hover p.icon-links a:hover,
+.imgholder:hover p.icon-links a:focus {
   color: #fff;
 }
 
@@ -152,8 +152,8 @@ div > h6 {
   padding-top: 2px;
 }
 
-.hovereffect h2,
-.hovereffect p.icon-links a {
+.imgholder h2,
+.imgholder p.icon-links a {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, 200%, 0);
@@ -161,7 +161,7 @@ div > h6 {
   visibility: visible;
 }
 
-.hovereffect p.icon-links a span:before {
+.imgholder p.icon-links a span:before {
   display: inline-block;
   padding: 8px 10px;
   speak: none;
@@ -169,29 +169,29 @@ div > h6 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.hovereffect:hover .overlay,
-.hovereffect:hover h2,
-.hovereffect:hover p.icon-links a {
+.imgholder:hover .overlay,
+.imgholder:hover h2,
+.imgholder:hover p.icon-links a {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
-.hovereffect:hover h2 {
+.imgholder:hover h2 {
   -webkit-transition-delay: 0.05s;
   transition-delay: 0.05s;
 }
 
-.hovereffect:hover p.icon-links a:nth-child(3) {
+.imgholder:hover p.icon-links a:nth-child(3) {
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
 
-.hovereffect:hover p.icon-links a:nth-child(2) {
+.imgholder:hover p.icon-links a:nth-child(2) {
   -webkit-transition-delay: 0.15s;
   transition-delay: 0.15s;
 }
 
-.hovereffect:hover p.icon-links a:first-child {
+.imgholder:hover p.icon-links a:first-child {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }

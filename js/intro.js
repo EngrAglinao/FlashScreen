@@ -8,12 +8,12 @@ function bringInIntro() {
       translateX: ["-100%"]
     })
     .add({
-      targets: "#welcome path",
+      targets: "#welcome path , #welcome-android path",
       strokeDashoffset: [anime.setDashoffset, 0],
       duration: 2000
     })
     .add({
-      targets: "#fill",
+      targets: "#welcome #fill, #welcome-android #fill",
       opacity: [0 , 1],
       duration: 1000,
 

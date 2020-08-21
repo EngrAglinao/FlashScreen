@@ -1,5 +1,4 @@
 window.addEventListener("load", () => {
-    console.log('app.js file has been loaded');
     document.querySelector("body").classList.remove("loading");
     anime
       .timeline({
@@ -27,7 +26,7 @@ window.addEventListener("load", () => {
       .add({
         targets: ".name h1",
         translateY: [300, 0],
-        duration: 2500,
+        duration: 2000,
         offset: "-=1000",
         complete: anim => {
           bringInIntro();
